@@ -119,6 +119,10 @@ nav a:hover {
   text-align: center;
 }
 
+.card--removeMB{
+  margin-bottom: 0;
+}
+
 .responsive-img {
   max-width: 100%;
   height: auto;

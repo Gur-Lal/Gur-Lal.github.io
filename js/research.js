@@ -1,22 +1,3 @@
 function initResearch() {
-  const slides = document.querySelectorAll(".persona-slide");
-  const nextBtn = document.querySelector(".next");
-  const prevBtn = document.querySelector(".prev");
-
-  let currentIndex = 0;
-
-  function showSlide(index) {
-    slides.forEach(slide => slide.classList.remove("active"));
-    slides[index].classList.add("active");
-  }
-
-  nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  });
-
-  prevBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    showSlide(currentIndex);
-  });
+  console.log("Reflection section loaded");
 }
