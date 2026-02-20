@@ -140,6 +140,10 @@ ul {
   padding: 2%;
 }
 
+h3 {
+  scroll-margin-top: 180px;
+}
+
 /* Footer */
 footer {
   text-align: center;
