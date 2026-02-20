@@ -242,3 +242,32 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Print */
+@media print {
+
+  body {
+    background: white !important;
+  }
+
+  .hero {
+    background: white !important;
+    color: black !important;
+  }
+
+  .toc {
+    background: none !important;
+    backdrop-filter: none !important;
+    color: black !important;
+  }
+
+  .toc a {
+    color: black !important;
+  }
+
+  nav,
+  footer {
+    display: none !important;
+  }
+
+}
